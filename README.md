@@ -1,7 +1,15 @@
 # Repo for learning frontend
 
 - [Repo for learning frontend](#repo-for-learning-frontend)
+  - [Docs](#docs)
+    - [JavaScript](#javascript)
   - [Tutorials](#tutorials)
+
+## Docs
+
+### JavaScript
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 ## Tutorials
 
