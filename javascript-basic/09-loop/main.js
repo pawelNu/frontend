@@ -71,3 +71,10 @@ let stringValue = "abcd";
 for (let i = 0; i <= stringValue.length - 1; i++) {
     console.log(stringValue.charAt(i));
 }
+
+// for collections - alternative forEach()
+
+const myArray = ["eat", "sleep", "repeat"];
+myArray.forEach((item) => {
+    console.log(item);
+});
