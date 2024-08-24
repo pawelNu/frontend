@@ -1,14 +1,14 @@
 # Repo for learning frontend
 
--   [Repo for learning frontend](#repo-for-learning-frontend)
-    -   [Docs](#docs)
-        -   [JavaScript](#javascript)
-    -   [Tutorials](#tutorials)
-        -   [JavaScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours](#javascript-full-course-for-beginners--complete-all-in-one-tutorial--8-hours)
-        -   [TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours](#typescript-full-course-for-beginners--complete-all-in-one-tutorial--8-hours)
-        -   [React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours](#react-js-full-course-for-beginners--complete-all-in-one-tutorial--9-hours)
-        -   [React Course - Beginner's Tutorial for React JavaScript Library \[2022\]](#react-course---beginners-tutorial-for-react-javascript-library-2022)
-    -   [Images](#images)
+- [Repo for learning frontend](#repo-for-learning-frontend)
+  - [Docs](#docs)
+    - [JavaScript](#javascript)
+  - [Tutorials](#tutorials)
+    - [JavaScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours](#javascript-full-course-for-beginners--complete-all-in-one-tutorial--8-hours)
+    - [TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours](#typescript-full-course-for-beginners--complete-all-in-one-tutorial--8-hours)
+    - [React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours](#react-js-full-course-for-beginners--complete-all-in-one-tutorial--9-hours)
+    - [React Course - Beginner's Tutorial for React JavaScript Library \[2022\]](#react-course---beginners-tutorial-for-react-javascript-library-2022)
+  - [Images](#images)
 
 ## Docs
 
@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=EfAl9bwzVZk&ab_channel=DaveGray
 
 Setup: For displaying JavaScript results, use Live Server extension to launch `index.html` in browser and dev tools console from browser to see JS outputs.
 
-TODO https://youtu.be/EfAl9bwzVZk?si=HSPNdMCayEnDUTij&t=24400
+TODO https://youtu.be/EfAl9bwzVZk?si=3SiTfFWpDuOATzwo&t=25879
 
 ### TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours
 
