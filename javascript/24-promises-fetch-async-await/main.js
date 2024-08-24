@@ -164,6 +164,130 @@ const postToWebPage = (data) => {
 getAllUserEmails();
 
 //// Fetch
-// 2nd parameter of Fetch
+// 2nd parameter of Fetch is a object
 
-// TODO finish here
+const getDadJokeJson = async () => {
+    const response = await fetch("https://icanhazdadjoke.com/", {
+        method: "GET",
+        headers: {
+            Accept: "application/json",
+        },
+    });
+    const jsonJokeData = await response.json();
+    console.log(jsonJokeData);
+    console.log(jsonJokeData.joke);
+};
+
+const getDadJokeText = async () => {
+    const response = await fetch("https://icanhazdadjoke.com/", {
+        method: "GET",
+        headers: {
+            Accept: "text/plain",
+        },
+    });
+    const textJokeData = await response.text();
+    console.log(textJokeData);
+};
+
+getDadJokeJson();
+getDadJokeText();
+
+const jokeObject = {
+    id: "G6pWSvzAljb",
+    joke: "Animal Fact #25: Most bobcats are not named bob.",
+    status: 200,
+};
+
+const postData = async (data) => {
+    const response = await fetch("https://httpbin.org/post", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+    });
+    const jsonResponse = await response.json();
+    console.log(jsonResponse.headers);
+};
+
+postData(jokeObject);
+
+const requestJoke = async (category) => {
+    const response = await fetch(`https://api.chucknorris.io/jokes/random?category=${category}`);
+    const jsonResponse = await response.json();
+    console.log(jsonResponse);
+    console.log(jsonResponse.value);
+};
+
+[
+    "animal",
+    "career",
+    "celebrity",
+    "dev",
+    "explicit",
+    "fashion",
+    "food",
+    "history",
+    "money",
+    "movie",
+    "music",
+    "political",
+    "religion",
+    "science",
+    "sport",
+    "travel",
+];
+
+requestJoke("animal");
+
+//// abstract into functions
+
+const getDataFromForm = () => {
+    const requestObject = {
+        page: 0,
+        limit: 10,
+        term: "did",
+        // it works also with arrays
+    };
+    console.log(requestObject);
+    return requestObject;
+};
+
+const buildRequestUrl = (requestData) => {
+    const url = `https://icanhazdadjoke.com/search?page=${requestData.page}&limit=${requestData.limit}&term=${requestData.term}`;
+    console.log(url);
+    return url;
+};
+
+const getHeaders = {
+    method: "GET",
+    headers: {
+        Accept: "application/json",
+    },
+};
+
+const getRequestJoke = async (url) => {
+    const response = await fetch(url, getHeaders);
+    const jsonResponse = await response.json();
+    // console.log(jsonResponse);
+    const jokeArray = jsonResponse.results.map(result => result.joke);
+    // console.log(jokeArray);
+    postJokeToPage(jokeArray);
+};
+
+const postJokeToPage = (jokes) => {
+    jokes.forEach((joke) => {
+        console.log(joke)
+    });
+};
+
+// procedural "workflow function"
+
+const processJokeRequest = async () => {
+    const requestData = getDataFromForm();
+    const requestUrl = buildRequestUrl(requestData);
+    await getRequestJoke(requestUrl);
+    console.log("finished!");
+};
+
+processJokeRequest();
