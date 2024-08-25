@@ -26,8 +26,6 @@ https://www.youtube.com/watch?v=EfAl9bwzVZk&ab_channel=DaveGray
 
 Setup: For displaying JavaScript results, use Live Server extension to launch `index.html` in browser and dev tools console from browser to see JS outputs.
 
-TODO https://youtu.be/EfAl9bwzVZk?si=3SiTfFWpDuOATzwo&t=25879
-
 ### TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours
 
 https://www.youtube.com/watch?v=gieEQFIfgYc&ab_channel=DaveGray
