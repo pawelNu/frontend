@@ -66,13 +66,24 @@ You can learn more at https://aka.ms/tsconfig
 
 In `tsconfig.json` change:
 
-````
+```
 "rootDir": "./src",
 "outDir": "./build/js",
 "target": "ES5", -- for older browsers
-````
+"noEmitOnError": true,
+```
+
+At the end add:
+
+```
+,
+  "include": [
+    "src"
+  ]
+```
 
 Then in directory with `tsconfig.json` run `tsc -w`:
+
 ```
 frontend/01-typescript/01-build-dir$ ls -l
 total 20

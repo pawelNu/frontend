@@ -20,7 +20,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 ### JavaScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours
 
-[javascript-basic](javascript-basic)
+[00-javascript](00-javascript)
 
 Tutorial: https://www.youtube.com/watch?v=EfAl9bwzVZk&ab_channel=DaveGray
 
@@ -29,14 +29,13 @@ Setup:
 
 ### TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours
 
+[01-typescript](01-typescript)
+
 Tutorial: https://www.youtube.com/watch?v=gieEQFIfgYc&ab_channel=DaveGray
 
 Source code: https://github.com/gitdagray/typescript-course
 
-Setup:
-
-
-TODO 
+TODO https://youtu.be/gieEQFIfgYc?si=a68noJ4sbowBREAV&t=2486
 
 ### React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours
 
