@@ -20,17 +20,22 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 ### JavaScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours
 
-[javascript-basic](javascript-basic)
+[00-javascript](00-javascript)
 
-https://www.youtube.com/watch?v=EfAl9bwzVZk&ab_channel=DaveGray
+Tutorial: https://www.youtube.com/watch?v=EfAl9bwzVZk&ab_channel=DaveGray
 
-Setup: For displaying JavaScript results, use Live Server extension to launch `index.html` in browser and dev tools console from browser to see JS outputs.
+Setup: 
+1. For displaying JavaScript results, use Live Server extension to launch `index.html` in browser and dev tools console from browser to see JS outputs.
 
 ### TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours
 
-https://www.youtube.com/watch?v=gieEQFIfgYc&ab_channel=DaveGray
+[01-typescript](01-typescript)
 
-TODO do TypeScript tutorial
+Tutorial: https://www.youtube.com/watch?v=gieEQFIfgYc&ab_channel=DaveGray
+
+Source code: https://github.com/gitdagray/typescript-course
+
+TODO https://youtu.be/gieEQFIfgYc?si=a68noJ4sbowBREAV&t=2486
 
 ### React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours
 
