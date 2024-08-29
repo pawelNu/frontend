@@ -35,7 +35,7 @@ Tutorial: https://www.youtube.com/watch?v=gieEQFIfgYc&ab_channel=DaveGray
 
 Source code: https://github.com/gitdagray/typescript-course
 
-TODO https://youtu.be/gieEQFIfgYc?si=YH_2UhTVxfKbePd4&t=9511
+TODO https://youtu.be/gieEQFIfgYc?si=yXGAo5AZcpbFvWAB&t=12350
 
 ### React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours
 
