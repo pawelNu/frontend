@@ -1,15 +1,15 @@
-import Header from "./Header";
-import Content from "./Content";
-import Footer from "./Footer";
-import { StyledComponent } from "./StylingComponent";
+import { StyledComponent } from "./components/StylingComponent";
+import { ClickEvent } from "./components/ClickEvent";
+import { GroceriesList } from "./components/GroceriesList";
+import { UseState } from "./components/UseState";
 
 function App() {
     return (
-        <div className="App">
-            <Header />
-            <Content />
-            <Footer />
+        <div className="container">
+            <GroceriesList />
             <StyledComponent />
+            <ClickEvent />
+            <UseState />
         </div>
     );
 }
