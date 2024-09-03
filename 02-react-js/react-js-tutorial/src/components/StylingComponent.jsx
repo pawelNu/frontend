@@ -2,6 +2,7 @@ export const StyledComponent = () => {
     const headerStyle = {
         backgroundColor: "royalblue",
         color: "#fff",
+        marginBottom: 25,
     };
 
     return (
