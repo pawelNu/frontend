@@ -2,6 +2,7 @@ import { StyledComponent } from "./components/StylingComponent";
 import { ClickEvent } from "./components/ClickEvent";
 import { GroceriesList } from "./components/GroceriesList";
 import { UseState } from "./components/UseState";
+import { ListAndKeys } from "./components/ListAndKeys";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <StyledComponent />
             <ClickEvent />
             <UseState />
+            <ListAndKeys />
         </div>
     );
 }
