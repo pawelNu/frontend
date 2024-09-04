@@ -1,7 +1,9 @@
 import { StyledComponent } from "./components/StylingComponent";
 import { ClickEvent } from "./components/ClickEvent";
-import { GroceriesList } from "./components/GroceriesList";
 import { UseState } from "./components/UseState";
+import { ListAndKeys } from "./components/ListAndKeys";
+import { PropsAndPropDrilling } from "./components/propsAndPropDrilling/PropsAndPropDrilling";
+import { GroceriesList } from "./components/groceriesList/GroceriesList";
 
 function App() {
     return (
@@ -10,6 +12,8 @@ function App() {
             <StyledComponent />
             <ClickEvent />
             <UseState />
+            <ListAndKeys />
+            <PropsAndPropDrilling />
         </div>
     );
 }

@@ -46,7 +46,7 @@ Resources: https://github.com/gitdagray/react_resources?tab=readme-ov-file#-reso
 
 https://www.youtube.com/watch?v=RVFAyFWO4go&ab_channel=DaveGray
 
-TODO https://youtu.be/RVFAyFWO4go?si=-BsHP1LrlcC8T0JB&t=3805
+TODO https://youtu.be/RVFAyFWO4go?si=sT7LPU1Vl1VpeRm2&t=6356
 
 TODO UPDATE: Chapter 16 & 17 Part 2: https://www.youtube.com/watch?v=XBRLVRjZ3CQ&ab_channel=DaveGray
 
@@ -59,3 +59,5 @@ TODO do React Course
 ## Images
 
 https://icons8.com/icons/set/javascript
+
+https://feathericons.com
