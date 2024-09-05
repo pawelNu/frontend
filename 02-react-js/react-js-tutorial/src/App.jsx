@@ -4,6 +4,7 @@ import { UseState } from "./components/UseState";
 import { ListAndKeys } from "./components/ListAndKeys";
 import { PropsAndPropDrilling } from "./components/propsAndPropDrilling/PropsAndPropDrilling";
 import { GroceriesList } from "./components/groceriesList/GroceriesList";
+import { ControlledComponentInputs } from "./components/controlledComponentInputs/ControlledComponetInputs";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <UseState />
             <ListAndKeys />
             <PropsAndPropDrilling />
+            <ControlledComponentInputs />
         </div>
     );
 }

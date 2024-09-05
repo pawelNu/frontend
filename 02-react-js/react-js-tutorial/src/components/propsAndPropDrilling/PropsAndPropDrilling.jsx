@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import { ListAndKeys } from "./ListAndKeys";
 import { SubComponent } from "./SubComponent";
 import { SubComponent2 } from "./SubComponent";
@@ -22,12 +23,13 @@ export const PropsAndPropDrilling = () => {
         localStorage.setItem("shoppinglist", JSON.stringify(listItems));
     };
     return (
-        <div>
+        <div style={{marginBottom: 25}}>
             <h1>PropsAndPropDrilling</h1>
             <SubComponent title="SubComponentTitle" />
             <SubComponent2 title="SubComponentTitle2" />
             <SubComponent3 />
             <ListAndKeys items={items} handleCheck={handleCheck} handleDelete={handleDelete} />
+            <Footer length={items.length}/>
         </div>
     );
 };
