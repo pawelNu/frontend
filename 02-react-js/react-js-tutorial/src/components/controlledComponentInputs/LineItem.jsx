@@ -1,6 +1,6 @@
 import { Trash2 } from "react-feather";
 
-export const LineItem = ({ item, handleCheck, handleDelete }) => {
+const LineItem = ({ item, handleCheck, handleDelete }) => {
     return (
         <li className="item">
             <input type="checkbox" onChange={() => handleCheck(item.id)} checked={item.checked} />
@@ -14,9 +14,10 @@ export const LineItem = ({ item, handleCheck, handleDelete }) => {
                 onClick={() => handleDelete(item.id)}
                 role="button"
                 tabIndex="0"
-                className="ms-1"
-                aria-label={`Delete ${item.id}`}
+                aria-label={`Delete ${item.item}`}
             />
         </li>
     );
 };
+
+export default LineItem;
