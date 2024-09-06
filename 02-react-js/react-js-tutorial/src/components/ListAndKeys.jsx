@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Trash2 } from "react-feather";
+import { GoBackToTableOfContent } from "./utils/TableOfContent";
 
 export const ListAndKeys = () => {
     const [items, setItems] = useState([
@@ -36,6 +37,7 @@ export const ListAndKeys = () => {
 
     return (
         <main>
+            <GoBackToTableOfContent />
             <h1>ListAndKeys</h1>
             {items.length ? (
                 <ul>

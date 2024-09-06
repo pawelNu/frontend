@@ -4,6 +4,7 @@ import AddItem from "./AddItem";
 import Content from "./Content";
 import Footer from "./Footer";
 import { useState } from "react";
+import { GoBackToTableOfContent } from "../utils/TableOfContent";
 
 export const ControlledComponentInputs = () => {
     const [items, setItems] = useState(JSON.parse(localStorage.getItem("shoppinglist")) || []);
@@ -43,6 +44,7 @@ export const ControlledComponentInputs = () => {
 
     return (
         <div>
+            <GoBackToTableOfContent />
             <h1>ControlledComponentInputs</h1>
             <Header title="Grocery List" />
             <AddItem newItem={newItem} setNewItem={setNewItem} handleSubmit={handleSubmit} />

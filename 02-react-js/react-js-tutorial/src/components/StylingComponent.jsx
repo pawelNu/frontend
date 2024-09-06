@@ -1,3 +1,5 @@
+import { GoBackToTableOfContent } from "./utils/TableOfContent";
+
 export const StyledComponent = () => {
     const headerStyle = {
         backgroundColor: "royalblue",
@@ -7,6 +9,7 @@ export const StyledComponent = () => {
 
     return (
         <>
+            <GoBackToTableOfContent />
             <header
                 style={{
                     backgroundColor: "blue",

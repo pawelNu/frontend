@@ -1,3 +1,4 @@
+import { GoBackToTableOfContent } from "../utils/TableOfContent";
 import Footer from "./Footer";
 import { ListAndKeys } from "./ListAndKeys";
 import { SubComponent } from "./SubComponent";
@@ -23,13 +24,14 @@ export const PropsAndPropDrilling = () => {
         localStorage.setItem("shoppinglist", JSON.stringify(listItems));
     };
     return (
-        <div style={{marginBottom: 25}}>
+        <div style={{ marginBottom: 25 }}>
+            <GoBackToTableOfContent />
             <h1>PropsAndPropDrilling</h1>
             <SubComponent title="SubComponentTitle" />
             <SubComponent2 title="SubComponentTitle2" />
             <SubComponent3 />
             <ListAndKeys items={items} handleCheck={handleCheck} handleDelete={handleDelete} />
-            <Footer length={items.length}/>
+            <Footer length={items.length} />
         </div>
     );
 };
