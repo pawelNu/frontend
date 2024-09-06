@@ -1,3 +1,5 @@
+import { GoBackToTableOfContent } from "./utils/TableOfContent";
+
 export const ClickEvent = () => {
     const handleNameChange = () => {
         const names = ["Bob", "Kevin", "Dave"];
@@ -27,6 +29,7 @@ export const ClickEvent = () => {
 
     return (
         <>
+            <GoBackToTableOfContent />
             <div className="card mb-2">
                 <h5 className="card-header">ClickEvent</h5>
                 <div className="card-body">

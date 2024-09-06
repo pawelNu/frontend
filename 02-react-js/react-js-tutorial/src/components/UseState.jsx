@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { GoBackToTableOfContent } from "./utils/TableOfContent";
 
 export const UseState = () => {
     const [name, setName] = useState("Dave");
@@ -11,16 +12,17 @@ export const UseState = () => {
     };
 
     const handleClick = () => {
-        setCount(count + 1)
-        console.log(count)
-    }
+        setCount(count + 1);
+        console.log(count);
+    };
 
     const handleClick2 = () => {
-        console.log(count)
-    }
+        console.log(count);
+    };
 
     return (
         <>
+            <GoBackToTableOfContent />
             <div className="card mb-2">
                 <h5 className="card-header">UseState</h5>
                 <div className="card-body">
@@ -33,18 +35,10 @@ export const UseState = () => {
                         >
                             Change name
                         </button>
-                        <button
-                            type="button"
-                            className="btn btn-primary"
-                            onClick={handleClick}
-                        >
+                        <button type="button" className="btn btn-primary" onClick={handleClick}>
                             Click it
                         </button>
-                        <button
-                            type="button"
-                            className="btn btn-primary"
-                            onClick={handleClick2}
-                        >
+                        <button type="button" className="btn btn-primary" onClick={handleClick2}>
                             Click it
                         </button>
                     </div>
