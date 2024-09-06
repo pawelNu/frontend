@@ -29,5 +29,9 @@ export const menuElements = [
         name: "Controlled Component Inputs",
         link: links.controlledComponentInputs,
     },
+    {
+        name: "Square App",
+        link: links.squareApp,
+    },
 
 ];

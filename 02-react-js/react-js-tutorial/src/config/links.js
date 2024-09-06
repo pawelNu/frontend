@@ -7,4 +7,5 @@ export const links = {
     listAndKeys: "/listAndKeys",
     propsAndPropDrilling: "/propsAndPropDrilling",
     controlledComponentInputs: "/controlledComponentInputs",
+    squareApp: "/squareApp",
 };

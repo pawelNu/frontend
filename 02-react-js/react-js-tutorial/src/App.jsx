@@ -8,6 +8,7 @@ import { ControlledComponentInputs } from "./components/controlledComponentInput
 import { links } from "./config/links";
 import { Routes, Route } from "react-router-dom";
 import { TableOfContent } from "./components/utils/TableOfContent";
+import SquareApp from "./components/beginnerChallenge/SquareApp";
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                     path={links.controlledComponentInputs}
                     element={<ControlledComponentInputs />}
                 />
+                <Route path={links.squareApp} element={<SquareApp />} />
             </Routes>
         </div>
     );
