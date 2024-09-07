@@ -8,4 +8,5 @@ export const links = {
     propsAndPropDrilling: "/propsAndPropDrilling",
     controlledComponentInputs: "/controlledComponentInputs",
     squareApp: "/squareApp",
+    appUseEffect: "/appUseEffect",
 };

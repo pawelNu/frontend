@@ -2,7 +2,6 @@ import Square from "./Square";
 import Input from "./Input";
 import { useState, useEffect } from "react";
 import { GoBackToTableOfContent } from "../utils/TableOfContent";
-import "./styles.css";
 
 function SquareApp() {
     const [colorValue, setColorValue] = useState("");

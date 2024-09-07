@@ -9,6 +9,7 @@
     - [React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours](#react-js-full-course-for-beginners--complete-all-in-one-tutorial--9-hours)
     - [React Course - Beginner's Tutorial for React JavaScript Library \[2022\]](#react-course---beginners-tutorial-for-react-javascript-library-2022)
   - [Images](#images)
+  - [JSON Server](#json-server)
 
 ## Docs
 
@@ -46,7 +47,7 @@ Resources: https://github.com/gitdagray/react_resources?tab=readme-ov-file#-reso
 
 https://www.youtube.com/watch?v=RVFAyFWO4go&ab_channel=DaveGray
 
-TODO https://youtu.be/RVFAyFWO4go?si=iA5D40WYyxmt4Mup&t=11025
+TODO https://youtu.be/RVFAyFWO4go?si=VsO6ab7NUPyq3Atj&t=12084
 
 TODO UPDATE: Chapter 16 & 17 Part 2: https://www.youtube.com/watch?v=XBRLVRjZ3CQ&ab_channel=DaveGray
 
@@ -61,3 +62,13 @@ TODO do React Course
 https://icons8.com/icons/set/javascript
 
 https://feathericons.com
+
+## JSON Server
+
+https://www.npmjs.com/package/json-server
+
+```
+npx json-server -p 3500 -w data/db.json
+```
+
+`npm` would install as a dependency.

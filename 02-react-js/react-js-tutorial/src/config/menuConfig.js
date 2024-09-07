@@ -33,5 +33,9 @@ export const menuElements = [
         name: "Square App",
         link: links.squareApp,
     },
+    {
+        name: "App useEffect",
+        link: links.appUseEffect,
+    },
 
 ];
