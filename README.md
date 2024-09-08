@@ -47,7 +47,7 @@ Resources: https://github.com/gitdagray/react_resources?tab=readme-ov-file#-reso
 
 https://www.youtube.com/watch?v=RVFAyFWO4go&ab_channel=DaveGray
 
-TODO 
+TODO https://youtu.be/RVFAyFWO4go?si=DLb3KS5y4jXhf8EB&t=14680
 
 TODO UPDATE: Chapter 16 & 17 Part 2: https://www.youtube.com/watch?v=XBRLVRjZ3CQ&ab_channel=DaveGray
 

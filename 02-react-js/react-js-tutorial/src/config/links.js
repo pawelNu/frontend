@@ -9,4 +9,5 @@ export const links = {
     controlledComponentInputs: "/controlledComponentInputs",
     squareApp: "/squareApp",
     appUseEffect: "/appUseEffect",
+    fetchApi: "/fetchApi",
 };

@@ -10,6 +10,7 @@ import { Routes, Route } from "react-router-dom";
 import { TableOfContent } from "./components/utils/TableOfContent";
 import SquareApp from "./components/10-beginnerChallenge/SquareApp";
 import { AppUseEffect } from "./components/11-useEffectHook/AppUseEffect";
+import { AppFetchApi } from "./components/13-fetch-api/AppFetchApi";
 
 function App() {
     return (
@@ -28,6 +29,7 @@ function App() {
                 />
                 <Route path={links.squareApp} element={<SquareApp />} />
                 <Route path={links.appUseEffect} element={<AppUseEffect />} />
+                <Route path={links.fetchApi} element={<AppFetchApi />} />
             </Routes>
         </div>
     );

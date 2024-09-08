@@ -37,5 +37,8 @@ export const menuElements = [
         name: "App useEffect",
         link: links.appUseEffect,
     },
-
+    {
+        name: "App fetchApi",
+        link: links.fetchApi,
+    },
 ];
