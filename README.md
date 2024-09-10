@@ -1,15 +1,16 @@
 # Repo for learning frontend
 
-- [Repo for learning frontend](#repo-for-learning-frontend)
-  - [Docs](#docs)
-    - [JavaScript](#javascript)
-  - [Tutorials](#tutorials)
-    - [JavaScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours](#javascript-full-course-for-beginners--complete-all-in-one-tutorial--8-hours)
-    - [TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours](#typescript-full-course-for-beginners--complete-all-in-one-tutorial--8-hours)
-    - [React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours](#react-js-full-course-for-beginners--complete-all-in-one-tutorial--9-hours)
-    - [React Course - Beginner's Tutorial for React JavaScript Library \[2022\]](#react-course---beginners-tutorial-for-react-javascript-library-2022)
-  - [Images](#images)
-  - [JSON Server](#json-server)
+-   [Repo for learning frontend](#repo-for-learning-frontend)
+    -   [Docs](#docs)
+        -   [JavaScript](#javascript)
+    -   [Tutorials](#tutorials)
+        -   [JavaScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours](#javascript-full-course-for-beginners--complete-all-in-one-tutorial--8-hours)
+        -   [TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours](#typescript-full-course-for-beginners--complete-all-in-one-tutorial--8-hours)
+        -   [React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours](#react-js-full-course-for-beginners--complete-all-in-one-tutorial--9-hours)
+        -   [React Course - Beginner's Tutorial for React JavaScript Library \[2022\]](#react-course---beginners-tutorial-for-react-javascript-library-2022)
+    -   [Images](#images)
+    -   [JSON Server](#json-server)
+    -   [Fake API](#fake-api)
 
 ## Docs
 
@@ -47,7 +48,7 @@ Resources: https://github.com/gitdagray/react_resources?tab=readme-ov-file#-reso
 
 https://www.youtube.com/watch?v=RVFAyFWO4go&ab_channel=DaveGray
 
-TODO https://youtu.be/RVFAyFWO4go?si=DLb3KS5y4jXhf8EB&t=14680
+TODO
 
 TODO UPDATE: Chapter 16 & 17 Part 2: https://www.youtube.com/watch?v=XBRLVRjZ3CQ&ab_channel=DaveGray
 
@@ -72,3 +73,7 @@ npx json-server -p 3500 -w data/db.json
 ```
 
 `npm` would install as a dependency.
+
+## Fake API
+
+https://jsonplaceholder.typicode.com/

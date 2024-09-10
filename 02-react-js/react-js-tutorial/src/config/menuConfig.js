@@ -41,4 +41,8 @@ export const menuElements = [
         name: "App fetchApi",
         link: links.fetchApi,
     },
+    {
+        name: "App fetchDataChallenge",
+        link: links.fetchDataChallenge,
+    },
 ];

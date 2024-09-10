@@ -10,4 +10,5 @@ export const links = {
     squareApp: "/squareApp",
     appUseEffect: "/appUseEffect",
     fetchApi: "/fetchApi",
+    fetchDataChallenge: "/fetchDataChallenge",
 };
