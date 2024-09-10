@@ -11,6 +11,7 @@ import { TableOfContent } from "./components/utils/TableOfContent";
 import SquareApp from "./components/10-beginnerChallenge/SquareApp";
 import { AppUseEffect } from "./components/11-useEffectHook/AppUseEffect";
 import { AppFetchApi } from "./components/13-fetch-api/AppFetchApi";
+import { AppFetchDataChallenge } from "./components/15-fetch-data-challenge/AppFetchDataChallenge";
 
 function App() {
     return (
@@ -30,6 +31,7 @@ function App() {
                 <Route path={links.squareApp} element={<SquareApp />} />
                 <Route path={links.appUseEffect} element={<AppUseEffect />} />
                 <Route path={links.fetchApi} element={<AppFetchApi />} />
+                <Route path={links.fetchDataChallenge} element={<AppFetchDataChallenge />} />
             </Routes>
         </div>
     );
