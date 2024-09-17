@@ -48,7 +48,7 @@ Resources: https://github.com/gitdagray/react_resources?tab=readme-ov-file#-reso
 
 https://www.youtube.com/watch?v=RVFAyFWO4go&ab_channel=DaveGray
 
-TODO https://youtu.be/RVFAyFWO4go?si=SAHnf2msL9Qyv8Dm&t=26244
+TODO 
 
 TODO uzupełnić projekt 01-react-js-router
 
