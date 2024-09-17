@@ -38,7 +38,7 @@ Tutorial: https://www.youtube.com/watch?v=gieEQFIfgYc&ab_channel=DaveGray
 
 Source code: https://github.com/gitdagray/typescript-course
 
-TODO after react tutorial https://youtu.be/gieEQFIfgYc?si=l29xZOS43gkPoVUD&t=17244
+TODO 
 
 ### React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours
 
@@ -47,12 +47,6 @@ Source code: https://github.com/gitdagray/react_resources?tab=readme-ov-file#-so
 Resources: https://github.com/gitdagray/react_resources?tab=readme-ov-file#-resources
 
 https://www.youtube.com/watch?v=RVFAyFWO4go&ab_channel=DaveGray
-
-TODO 
-
-TODO uzupełnić projekt 01-react-js-router
-
-TODO UPDATE: Chapter 16 & 17 Part 2: https://www.youtube.com/watch?v=XBRLVRjZ3CQ&ab_channel=DaveGray
 
 ### React Course - Beginner's Tutorial for React JavaScript Library [2022]
 
