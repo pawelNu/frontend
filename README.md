@@ -38,19 +38,19 @@ Tutorial: https://www.youtube.com/watch?v=gieEQFIfgYc&ab_channel=DaveGray
 
 Source code: https://github.com/gitdagray/typescript-course
 
-TODO https://www.youtube.com/watch?v=gieEQFIfgYc&t=17244s&ab_channel=DaveGray
+TODO 
 
 ### React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours
+
+Tutorial: https://www.youtube.com/watch?v=RVFAyFWO4go&ab_channel=DaveGray
 
 Source code: https://github.com/gitdagray/react_resources?tab=readme-ov-file#-source-code
 
 Resources: https://github.com/gitdagray/react_resources?tab=readme-ov-file#-resources
 
-https://www.youtube.com/watch?v=RVFAyFWO4go&ab_channel=DaveGray
-
 ### React Course - Beginner's Tutorial for React JavaScript Library [2022]
 
-https://www.youtube.com/watch?v=bMknfKXIFA8&ab_channel=freeCodeCamp.org
+Tutorial: https://www.youtube.com/watch?v=bMknfKXIFA8&ab_channel=freeCodeCamp.org
 
 TODO do React Course
 
