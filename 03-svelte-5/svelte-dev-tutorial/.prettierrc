@@ -8,7 +8,7 @@
         "svelteAllowShorthand": true,
         "svelteSortOrder": "options-scripts-markup-styles",
         "svelteStrictMode": false,
-        "svelteBracketNewLine": true,
+        "bracketSameLine": true,
         "printWidth": 80,
         "tabWidth": 4,
         "singleQuote": false,
