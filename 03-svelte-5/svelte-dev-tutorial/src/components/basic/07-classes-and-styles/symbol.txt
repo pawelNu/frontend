@@ -1,0 +1,74 @@
+
+element {
+}
+.symbol.s-S0Se93IfVkGM {
+  font-size: 30em;
+
+  color: var(--fg-1);
+
+}
+.s-S0Se93IfVkGM {
+}
+div {
+  font-size: 120%;
+
+}
+.card.s-S0Se93IfVkGM {
+  font-size: min(1vh, 0.25rem);
+
+  cursor: pointer;
+
+}
+button {
+  font-size: 1em;
+
+  font-weight: 500;
+
+  font-family: inherit;
+
+  cursor: pointer;
+
+}
+#app {
+  text-align: center;
+
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  line-height: 1.5rem;
+
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+
+  text-rendering: optimizeLegibility;
+
+}
+
+margin
+border
+padding
+
+×
+
+129.1×169
+static
+
+    box-sizing
+    content-box
+    display
+    block
+    float
+    none
+    line-height
+    normal
+    position
+    static
+    z-index
+    auto
+
